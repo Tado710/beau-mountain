@@ -406,9 +406,20 @@ body {
   align-self: center;
   opacity: 1
 }
+.slider-facilities .swiper-slide-active {
+  border-radius: .75rem;
+  overflow: hidden
+}
+.slider-facilities .swiper-slide-prev {
+  border-radius: .75rem 0 0 .75rem;
+  overflow: hidden
+}
+.slider-facilities .swiper-slide-next {
+  border-radius: 0 .75rem .75rem 0;
+  overflow: hidden
+}
 .slide-facilities.swiper-slide-active {
   align-self: center;
-  border-radius: .75rem;
   background-color: #06516e;
   z-index: 4;
   opacity: 1;
@@ -898,7 +909,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  border-radius: .75rem 0 0 .75rem;
   overflow: hidden;
   background-color: #152742
 }
@@ -1774,7 +1784,7 @@ body {
     column-gap: 1.5625rem
   }
   .slider-facilities {
-    height: 24.375rem
+    height: 23.125rem
   }
   .slider-facilities {
     padding-top: 1.875rem
@@ -2273,7 +2283,7 @@ body {
     column-gap: clamp(1.5625rem ,.7176459293rem + 4.2242703533vw ,5rem)
   }
   .slider-facilities {
-    height: clamp(24.375rem ,20.5347542243rem + 19.2012288786vw ,40rem)
+    height: clamp(23.125rem ,18.9775345622rem + 20.7373271889vw ,40rem)
   }
   .slider-facilities {
     padding-top: clamp(1.875rem ,1.4141705069rem + 2.3041474654vw ,3.75rem)
